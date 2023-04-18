@@ -1,807 +1,243 @@
-
-
-<!DOCTYPE html>
-<html lang="zh-CN" data-default-color-scheme=auto>
-
-
+<!doctype html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/back.jpg">
-  <link rel="icon" href="/img/back.jpg">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  
-  <meta name="theme-color" content="#2f4154">
-  <meta name="author" content="arcsin2">
-  <meta name="keywords" content="">
-  
-    <meta property="og:type" content="website">
-<meta property="og:title" content="arcsin2 的个人博客">
-<meta property="og:url" content="https://arcsin2.cloud/index.html">
-<meta property="og:site_name" content="arcsin2 的个人博客">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="arcsin2">
-<meta name="twitter:card" content="summary_large_image">
-  
-  
-    <meta name="referrer" content="no-referrer-when-downgrade">
-  
-  
-  <title>arcsin2 的个人博客</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="KDKA">
+    <meta name="author" content="">
+    <!--    Project Name   -->
+    <title>KDKA Project Homepage</title>
 
-  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+    <link rel="shortcut icon" href="./img/gene1.jpg" type="image/x-icon">
 
 
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link
+        href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'
+        rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 
+    <!-- Custom CSS-->
+    <link href="css/general.css" rel="stylesheet">
 
-<!-- 主题依赖的图标库，不要自行修改 -->
-<!-- Do not modify the link that theme dependent icons -->
+    <!-- Owl-Carousel -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- footer css -->
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script src="js/iconfont.js"></script>
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+    <style>
+        .icon {
+          width: 1em;
+          height: 1em;
+          vertical-align: -0.15em;
+          fill: currentColor;
+          overflow: hidden;
+        }
+    </style>
 
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <script src="js/vue.js"></script>
+    <script src="js/modernizr-2.8.3.min.js"></script> <!-- Modernizr /-->
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/script.js"></script>
+    <!-- StikyMenu -->
+    <script src="js/stickUp.min.js"></script>
+    <script type="text/javascript">
+        jQuery(function ($) {
+            $(document).ready(function () {
+                $('.navbar-default').stickUp();
 
+            });
+        });
+    </script>
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
-
-
-<link  rel="stylesheet" href="/css/main.css" />
-
-
-  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
-  
-    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
-  
-
-
-
-
-  <script id="fluid-configs">
-    var Fluid = window.Fluid || {};
-    Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"arcsin2.cloud","root":"/","version":"1.9.4","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
-
-    if (CONFIG.web_analytics.follow_dnt) {
-      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
-      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
-    }
-  </script>
-  <script  src="/js/utils.js" ></script>
-  <script  src="/js/color-schema.js" ></script>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-  
-<meta name="generator" content="Hexo 6.3.0"></head>
-
+    <!-- Smoothscroll -->
+    <script type="text/javascript" src="js/jquery.corner.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/classie.js"></script>
+    <script src="js/uiMorphingButton_inflow.js"></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="js/jquery.magnific-popup.js"></script>
+</head>
 
 <body>
-  
-
-  <header>
-    
-
-<div class="header-inner" style="height: 100vh;">
-  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-      <strong>arcsin2&#39;s blog</strong>
-    </a>
-
-    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <div class="animated-icon"><span></span><span></span><span></span></div>
-    </button>
-
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto text-center">
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/">
-                <i class="iconfont icon-home-fill"></i>
-                <span>首页</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/archives/">
-                <i class="iconfont icon-archive-fill"></i>
-                <span>归档</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/categories/">
-                <i class="iconfont icon-category-fill"></i>
-                <span>分类</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/tags/">
-                <i class="iconfont icon-tags-fill"></i>
-                <span>标签</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/about/">
-                <i class="iconfont icon-user-fill"></i>
-                <span>关于</span>
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/links/">
-                <i class="iconfont icon-link-fill"></i>
-                <span>友链</span>
-              </a>
-            </li>
-          
-        
-        
-          <li class="nav-item" id="search-btn">
-            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
-              <i class="iconfont icon-search"></i>
-            </a>
-          </li>
-          
-        
-        
-          <li class="nav-item" id="color-toggle-btn">
-            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
-              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
-            </a>
-          </li>
-        
-      </ul>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"></div>
     </div>
-  </div>
-</nav>
-
-  
-
-<div id="banner" class="banner" parallax=true
-     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
-  <div class="full-bg-img">
-    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
-      <div class="banner-text text-center fade-in-up">
-        <div class="h2">
-          
-            <span id="subtitle" data-typed-text="&lt;i&gt;Scientia potentia est.&lt;/i&gt;"></span>
-          
-        </div>
-
-        
-      </div>
-
-      
-        <div class="scroll-down-bar">
-          <i class="iconfont icon-arrowdown"></i>
-        </div>
-      
-    </div>
-  </div>
-</div>
-
-</div>
-
-  </header>
-
-  <main>
-    
-      <div class="container nopadding-x-md">
-        <div id="board"
-          style="margin-top: 0">
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
 
 
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2023/03/12/%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8E%E6%A0%B7%E6%9C%AC%E9%9A%BE%E5%BA%A6%E5%BA%A6%E9%87%8F/" target="_self">
-          数据集与样本难度度量
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2023/03/12/%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8E%E6%A0%B7%E6%9C%AC%E9%9A%BE%E5%BA%A6%E5%BA%A6%E9%87%8F/" target="_self">
-        <div>
-          本文分享关于数据集与样本难度度量的论文，具体为：  A Theory of Usable Information Under Computational Constraints Understanding Dataset Difficulty with \(\mathcal{V}\)-Usable Information  主要内容来自于组会分享，slides 可点此查看。 1.
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2023-03-12 22:19" pubdate>
-              2023-03-12
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3 d-flex align-items-center">
-            <i class="iconfont icon-category"></i>
-            
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/Deep-Learning/" class="category-chain-item">Deep Learning</a>
-  
-  
-    <span>></span>
-    
-  <a href="/categories/Deep-Learning/%E8%AF%BB%E8%AE%BA%E6%96%87/" class="category-chain-item">读论文</a>
-  
-  
-
-  
-
-      </span>
-    
-  
-</span>
-
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/dataset-example-difficulty/">#dataset & example difficulty</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2023/03/03/Ubuntu-22-04-%E5%AE%89%E8%A3%85-QEMU-%E6%B5%81%E7%A8%8B/" target="_self">
-          Ubuntu 22.04 安装 QEMU 流程
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2023/03/03/Ubuntu-22-04-%E5%AE%89%E8%A3%85-QEMU-%E6%B5%81%E7%A8%8B/" target="_self">
-        <div>
-          QEMU 官方网站已经提供了安装 QEMU 的教程，按照其内容，Ubuntu 平台仅需执行 sudo apt-get install qemu 命令即可。但是，在实际安装过程中遇到了错误且未能解决，于是采用源码方式安装。以 QEMU 7.2.0 版本为例，介绍安装流程。  下载源码并解压缩 123$ wget https://download.qemu.org/qemu-7.2.0.
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2023-03-03 19:56" pubdate>
-              2023-03-03
-            </time>
-          </div>
-        
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/QEMU/">#QEMU</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-      <div class="col-12 col-md-4 m-auto index-img">
-        <a href="/2023/02/23/Hexo-%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" target="_self">
-          <img src="/imgs/0_0.jpg" srcset="/img/loading.gif" lazyload alt="Hexo 博客无法显示图片解决方法">
-        </a>
-      </div>
-    
-    <article class="col-12 col-md-8 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2023/02/23/Hexo-%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" target="_self">
-          Hexo 博客无法显示图片解决方法
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt " href="/2023/02/23/Hexo-%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E5%9B%BE%E7%89%87%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" target="_self">
-        <div>
-          Hexo 官方提供了很多在 Markdown 中 插入图片 的方式，其语法主要可分为两种：  Markdown 原生支持的语法 ![图片描述](图片路径) 其中，图片路径不可以使用相对于本地系统的绝对路径，例如：C:/Users/admin/Pictures/a.jpg ，这样 Hexo 在生成静态网页时无法正确解析图片，从而导致图片无法在网页正常显示。 正确的图片路径有以下两种形
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2023-02-23 09:12" pubdate>
-              2023-02-23
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3 d-flex align-items-center">
-            <i class="iconfont icon-category"></i>
-            
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/%E5%8D%9A%E5%AE%A2/" class="category-chain-item">博客</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/Hexo/">#Hexo</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2023/02/20/%E9%B8%9F%E5%93%A5%E7%9A%84-Linux-%E7%A7%81%E6%88%BF%E8%8F%9C%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/" target="_self">
-          鸟哥的 Linux 私房菜阅读笔记
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2023/02/20/%E9%B8%9F%E5%93%A5%E7%9A%84-Linux-%E7%A7%81%E6%88%BF%E8%8F%9C%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/" target="_self">
-        <div>
-          写在前面： 本文是阅读 《鸟哥的 Linux 私房菜：基础学习篇》 一书的笔记，记录了个人认为的一些重点内容，供本人后续查阅参考。对于偏向于系统运维方面的内容，则未记录。 《鸟哥的 Linux 私房菜：基础学习篇》无疑是入门 Linux 命令行的一本好书，但是在个人阅读过程中，发现本书部分内容更偏向于系统运维人员，而不是大多数的普通程序员。当然，技多不压身，不过，对于仅想了解与日常编程
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2023-02-20 22:44" pubdate>
-              2023-02-20
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3 d-flex align-items-center">
-            <i class="iconfont icon-category"></i>
-            
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/Linux/" class="category-chain-item">Linux</a>
-  
-  
-    <span>></span>
-    
-  <a href="/categories/Linux/%E5%91%BD%E4%BB%A4%E8%A1%8C/" class="category-chain-item">命令行</a>
-  
-  
-
-  
-
-      </span>
-    
-  
-</span>
-
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/Linux-%E5%91%BD%E4%BB%A4%E8%A1%8C/">#Linux 命令行</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2023/02/19/%E4%B8%80%E6%96%87%E8%AF%BB%E6%87%82-C-%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/" target="_self">
-          一文读懂 C++ 运算符重载
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2023/02/19/%E4%B8%80%E6%96%87%E8%AF%BB%E6%87%82-C-%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/" target="_self">
-        <div>
-          运算符重载是 C++ 语言的一个特性，利用运算符重载能够写出更加简洁的代码，对外封装类的实现细节。本文介绍运算符重载相关知识点。 谈到运算符重载，还需要从 “函数重载” 说起。函数重载是指函数名相同，但函数参数类型、参数数量不同（返回类型相同）的函数。比如实现某种数据类型向 string 类型运算的函数： 123456// 函数重载示例string to_string(int i);str
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2023-02-19 13:08" pubdate>
-              2023-02-19
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3 d-flex align-items-center">
-            <i class="iconfont icon-category"></i>
-            
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/C/" class="category-chain-item">C++</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/%E8%BF%90%E7%AE%97%E7%AC%A6%E9%87%8D%E8%BD%BD/">#运算符重载</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2023/02/18/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" target="_self">
-          使用 Nginx(GitHub Pages) 与 Hexo 搭建个人博客
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2023/02/18/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" target="_self">
-        <div>
-          本文介绍使用 Nginx（或者 GitHub Pages） 与 Hexo 搭建个人博客的主要步骤。 在正文开始之前，先介绍上面提到的几个工具的功能：  Nginx：充当 Web 服务器的角色，在个人博客中，其主要功能是在公网服务器上提供 HTTP 或 HTTPS 服务，让用户能够访问你的博客网站。 GitHub Pages：在没有个人公网服务器时，使用 GitHub Pages
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2023-02-18 18:52" pubdate>
-              2023-02-18
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3 d-flex align-items-center">
-            <i class="iconfont icon-category"></i>
-            
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/%E5%8D%9A%E5%AE%A2/" class="category-chain-item">博客</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/Hexo/">#Hexo</a>
-            
-              <a href="/tags/%E5%8D%9A%E5%AE%A2/">#博客</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2023/02/18/hello-world/" target="_self">
-          Hello World
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2023/02/18/hello-world/" target="_self">
-        <div>
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2023-02-18 18:05" pubdate>
-              2023-02-18
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
-
-
-
-
-
-              </div>
+    <!-- NavBar-->
+    <nav class="navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="">KDKA</a>
             </div>
-          </div>
+
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="menuItem"><a href="index.html">Home</a></li>
+                    <li class="menuItem"><a href="installation.html">Installation</a></li>
+                    <li class="menuItem"><a href="tutorial.html">Tutorial</a></li>
+                    <li class="menuItem"><a href="cc.html">Citation & Contact</a></li>
+                    <li class="menuItem"><a href="https://github.com/HiangX/KDKA" target="_blank">
+                        <button style="color: white; background-color: #62c0a0; border: none; border-radius: 5px; padding: 1px 5px;">
+                            <span>GitHub</span>
+                        </button>
+                    </a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-    
+    </nav>
 
     
-      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
-        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
-      </a>
-    
+    <div class="main_content">
+        <div class="left_div">
+            <p class="question">
+                What is KDMA?
+            </p>
 
-    
-      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
-     aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
-        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+            <p class="answer">
+                KDMA, in short of Knowledge Distillation and Knowledge Abduction, is a machine learning method for
+                genomic survival analysis, proposed in <b>A Unified Method of Knowledge Distillation and Knowledge 
+                Abduction for Genomic Survival Analysis</b>.
+            </p>
+            <p class="answer">
+                It is built based on a Cox-Net model 
+                <math display="block" style="display:inline-block;">
+                    <mi class="mathcal">𝒞</mi>
+                  </math>
+                , and further consists of two crucial modules, i.e., KD (knowledge distillation from raw data) and KA (knowledge abduction from prior evidence). 
+                Finally, two losses 
+                <math display="block" style="display:inline-block;">
+                    <mrow>
+                      <mo fence="true" form="prefix">(</mo>
+                      <msub>
+                        <mi class="mathcal">ℒ</mi>
+                        <mrow>
+                          <mrow>
+                            <mi mathvariant="normal">K</mi>
+                          </mrow>
+                          <mrow>
+                            <mi mathvariant="normal">D</mi>
+                          </mrow>
+                        </mrow>
+                      </msub>
+                      <mo fence="true" form="postfix"></mo>
+                    </mrow>
+                  </math> and <math display="block" style="display:inline-block;">
+                    <mrow>
+                      <mo fence="true" form="prefix"></mo>
+                      <msub>
+                        <mi class="mathcal">ℒ</mi>
+                        <mrow>
+                          <mrow>
+                            <mi mathvariant="normal">K</mi>
+                          </mrow>
+                          <mrow>
+                            <mi mathvariant="normal">A</mi>
+                          </mrow>
+                        </mrow>
+                      </msub>
+                      <mo fence="true" form="postfix">)</mo>
+                    </mrow>
+                  </math>
+                derived from these two modules are calculated to drive end-to-end network training.
+            </p>
         </div>
-        <div class="list-group" id="local-search-result"></div>
-      </div>
+
+        <div class="right_div">
+            <img src="img/framework.jpg">
+            <!-- <div>
+                <svg class="icon" aria-hidden="true" style="font-size: 100px">
+                    <use xlink:href="#icon-DNA"></use>
+                </svg>
+                <svg class="icon" aria-hidden="true" style="font-size: 100px; color: #3f73a0">
+                    <use xlink:href="#icon-rengongzhineng"></use>
+                </svg>
+            </div> -->
+        </div>
     </div>
-  </div>
-</div>
 
-    
-
-    
-  </main>
-
-  <footer>
-    <div class="footer-inner">
-  
-    <div class="footer-content">
-       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    <div class="middle">
+        <p class="citation">
+            Citation
+        </p>
+        <p class="citation_content">
+            A Unified Method of Knowledge Distillation and Knowledge Abduction for Genomic Survival Analysis.
+        </p>
     </div>
-  
-  
-    <div class="statistics">
-  
-  
-
-  
     
-      <span id="busuanzi_container_site_pv" style="display: none">
-        总访问量 
-        <span id="busuanzi_value_site_pv"></span>
-         次
-      </span>
-    
-    
-      <span id="busuanzi_container_site_uv" style="display: none">
-        总访客数 
-        <span id="busuanzi_value_site_uv"></span>
-         人
-      </span>
-    
-    
-  
-</div>
+    <div class="quick_start">
+        <p class="sub_title">
+            <b>Quick start</b>
+        </p>
+        <p class="sub_content">
+            You can get alipy simply by:
+        </p>
+        <p class="code">
+            git clone git@github.com:HiangX/KDKA.git <br>
+            cd KDKA <br>
+            pip install -r requirements.txt <br>
+            python setup.py install
+        </p>
+        <p class="sub_content">
+            For detailed installation instruction, please refer to <a href="installation.html" target="_self" style="color: #3579f6">installation guide</a>.
+        </p>
+        <p class="sub_content">
+            KDKA provides several optional usages for different users.
+        </p>
+        <div class="sub_content">
+            <ul>
+                <li>
+                    <b>For the users who are less familiar with python and want to simply apply KDMA to a dataset.</b>
+                    Please refer to <a target="_self" href="tutorial.html" style="color:#3579f6">tutorial</a> to run
+                    the KDMA process in a few lines of codes without knowing about any background knowledge.
+                </li>
+                <li>
+                    <b>For the users who want to learn about the implemention details and perform their own experiments.</b>
+                    Please refer to <a href="https://github.com/HiangX/KDKA" target="_blank" style="color: #3579f6;">GitHub</a>
+                    and <a target="_self" href="tutorial.html" style="color:#3579f6">tutorial</a> to learn the details.
+                </li>
+            </ul>
+        </div>
+    </div>
 
-  
-  
-    <!-- 备案信息 ICP for China -->
-    <div class="beian">
-  <span>
-    <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
-      苏ICP备2021026429号-1
-    </a>
-  </span>
-  
-</div>
+    <!-- footer  -->
+    <div id="footer">
+        <p>
+            Copyright &copy; 2023 - xxx Team
+            <br>
+            xxx License
+        </p>
+    </div>
 
-  
-  
-</div>
-
-  </footer>
-
-  <!-- Scripts -->
-  
-  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
-  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
-
-  <script>
-    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
-    NProgress.start()
-    window.addEventListener('load', function() {
-      NProgress.done();
-    })
-  </script>
-
-
-<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
-<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
-<script  src="/js/events.js" ></script>
-<script  src="/js/plugins.js" ></script>
-
-
-  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
-  <script>
-    (function (window, document) {
-      var typing = Fluid.plugins.typing;
-      var subtitle = document.getElementById('subtitle');
-      if (!subtitle || !typing) {
-        return;
-      }
-      var text = subtitle.getAttribute('data-typed-text');
-      
-        typing(text);
-      
-    })(window, document);
-  </script>
-
-
-
-
-  
-    <script  src="/js/img-lazyload.js" ></script>
-  
-
-
-
-
-  <script  src="/js/local-search.js" ></script>
-
-  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
-
-
-
-
-
-<!-- 主题的启动项，将它保持在最底部 -->
-<!-- the boot of the theme, keep it at the bottom -->
-<script  src="/js/boot.js" ></script>
-
-
-  
-
-  <noscript>
-    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
-  </noscript>
 </body>
+
 </html>
