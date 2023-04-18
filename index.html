@@ -49,6 +49,10 @@
     </style>
 
     <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet"
+      href="css/default.min.css">
+    <script src="js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <link rel="stylesheet" href="css/magnific-popup.css">
     <script src="js/vue.js"></script>
     <script src="js/modernizr-2.8.3.min.js"></script> <!-- Modernizr /-->
@@ -120,11 +124,11 @@
     <div class="main_content">
         <div class="left_div">
             <p class="question">
-                What is KDMA?
+                What is KDKA?
             </p>
 
             <p class="answer">
-                KDMA, in short of Knowledge Distillation and Knowledge Abduction, is a machine learning method for
+                KDKA, in short of Knowledge Distillation and Knowledge Abduction, is a machine learning method for
                 genomic survival analysis, proposed in <b>A Unified Method of Knowledge Distillation and Knowledge 
                 Abduction for Genomic Survival Analysis</b>.
             </p>
@@ -201,12 +205,12 @@
         <p class="sub_content">
             You can get alipy simply by:
         </p>
-        <p class="code">
-            git clone git@github.com:HiangX/KDKA.git <br>
-            cd KDKA <br>
-            pip install -r requirements.txt <br>
-            python setup.py install
-        </p>
+        <div class="code">
+            <pre><code class="language-bash">$ git clone git@github.com:HiangX/KDKA.git <br>
+$ cd KDKA <br>
+$ pip install -r requirements.txt <br>
+$ python setup.py install</code></pre>
+        </div>
         <p class="sub_content">
             For detailed installation instruction, please refer to <a href="installation.html" target="_self" style="color: #3579f6">installation guide</a>.
         </p>
@@ -216,9 +220,9 @@
         <div class="sub_content">
             <ul>
                 <li>
-                    <b>For the users who are less familiar with python and want to simply apply KDMA to a dataset.</b>
+                    <b>For the users who are less familiar with python and want to simply apply KDKA to a dataset.</b>
                     Please refer to <a target="_self" href="tutorial.html" style="color:#3579f6">tutorial</a> to run
-                    the KDMA process in a few lines of codes without knowing about any background knowledge.
+                    the KDKA process in a few lines of codes without knowing about any background knowledge.
                 </li>
                 <li>
                     <b>For the users who want to learn about the implemention details and perform their own experiments.</b>
@@ -227,6 +231,7 @@
                 </li>
             </ul>
         </div>
+        
     </div>
 
     <!-- footer  -->
