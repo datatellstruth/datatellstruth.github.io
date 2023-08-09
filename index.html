@@ -128,52 +128,9 @@
             </p>
 
             <p class="answer">
-                KD, in short of Knowledge Distillation and Knowledge Abduction, is a machine learning method for
-                genomic survival analysis, proposed in <b>Data Tells the Truth: A Knowledge Distillation Method
-                for Genomic Survival Analysis by Handling Censoring</b>.
-            </p>
-            <p class="answer">
-                It is built based on a Cox-Net model 
-                <math display="block" style="display:inline-block;">
-                    <mi class="mathcal">𝒞</mi>
-                  </math>
-                , and further consists of two crucial modules, i.e., KD (knowledge distillation from raw data) and KA (knowledge abduction from prior evidence). 
-                Finally, two losses 
-                <math display="block" style="display:inline-block;">
-                    <mrow>
-                      <mo fence="true" form="prefix">(</mo>
-                      <msub>
-                        <mi class="mathcal">ℒ</mi>
-                        <mrow>
-                          <mrow>
-                            <mi mathvariant="normal">K</mi>
-                          </mrow>
-                          <mrow>
-                            <mi mathvariant="normal">D</mi>
-                          </mrow>
-                        </mrow>
-                      </msub>
-                      <mo fence="true" form="postfix"></mo>
-                    </mrow>
-                  </math> and <math display="block" style="display:inline-block;">
-                    <mrow>
-                      <mo fence="true" form="prefix"></mo>
-                      <msub>
-                        <mi class="mathcal">ℒ</mi>
-                        <mrow>
-                          <mrow>
-                            <mi mathvariant="normal">K</mi>
-                          </mrow>
-                          <mrow>
-                            <mi mathvariant="normal">A</mi>
-                          </mrow>
-                        </mrow>
-                      </msub>
-                      <mo fence="true" form="postfix">)</mo>
-                    </mrow>
-                  </math>
-                derived from these two modules are calculated to drive end-to-end network training.
-            </p>
+                Survival analysis is a critical tool for cancer research, but knowledge from censored data poses significant challenges to survival prediction due to its inaccurate hazards as the supervision bias for machine learning approaches. We propose a simple but effective method, termed KD, that performs knowledge distillation upon uncensored data to rectify the supervision bias inherent in censored data and leverages the combined power of rectified censored data and uncensored data to improve survival prediction accuracy. Remarkably, our KD method not only effectively harnesses censored data but also better reflects the clinical reality, demonstrating its immense value in handling survival analysis.
+                
+                
         </div>
 
         <div class="right_div">
@@ -202,7 +159,7 @@
             You can get KD simply by:
         </p>
         <div class="code">
-            <pre><code class="language-bash">$ git clone git@github.com:HiangX/KDKA.git <br>
+            <pre><code class="language-bash">$ git clone git@github.com:HiangX/KD.git <br>
 $ cd KD <br>
 $ pip install -r requirements.txt <br>
 $ python setup.py install</code></pre>
